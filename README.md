@@ -25,14 +25,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+map() - returns a new array but does not manipulate the original array, think of when you are converting data. You need a return statement in order for it to work. An example of this is to return the numbers in a given array multiplied by three. 
+.filter() when you want to filter data based on something that either true or false. It returns a new array, but does not manipulate the original. Also needs a return statement. An example would be, "if age is greater than five, return animals in zoo array." 
+ .reduce() can be used for anything but usually it is used for multiplication or addition. Does not return a new array but it returns a single value instead. An example of .reduce is using it to calculate an overall or average value of something. 
+
 
 2. Explain the difference between a callback and a higher order function.
+Higher Order Function is a  function that receives other functions as parameters while a callback function is a function that is passed into another function as an argument.
+
 
 3. Explain what a closure is.
+A closure gives you access to an outer function's scope from an inner function.
+
 
 4. Describe the four principles of the 'this' keyword.
+Window binding is generally used as a last resort if the terminal is not returning as intending. Implicit binding uses dot syntax and connects things using the "this" keyword. Explicit binding uses methods such as .call and functions in order to bind. The 'new' keyword creates a new class or prototype based on an existing one.
 
 5. Why do we need super() in an extended class?
+We need super() in an extended class in order to pull aspects from the class extended from to ass to the new class.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
